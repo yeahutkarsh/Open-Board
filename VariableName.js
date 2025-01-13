@@ -1,9 +1,10 @@
 let cTool = "pencil";
 // let canvasBoard = document.querySelector("canvas");
 let canvasBoard = document.getElementById("canvas");
-// canvasBoard.height = window.innerHeight;
-canvasBoard.height = 626;
-canvasBoard.width = window.innerWidth - 20;
+canvasBoard.height = window.innerHeight;
+canvasBoard.width = window.innerWidth;
+// canvasBoard.height = 626;
+//canvasBoard.width = window.innerWidth - 20;
 // canvasBoard.background-color == "black";
 
 let tool = canvasBoard.getContext("2d");
